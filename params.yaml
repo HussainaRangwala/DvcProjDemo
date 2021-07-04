@@ -1,0 +1,36 @@
+#Here we will be providing the details about the parameters
+
+base:
+  project: winequality-project
+  #The random seed value to be used in model
+  random_state: 42
+  #The target in our dataset
+  target_col: TARGET
+
+data_source:
+  #We are mentioning s3_source just to indicate that the data is coming from a remote storage
+  s3_source: data_given\winequality.csv
+
+load_data:
+  #We are taking the data from remote storage(data_source) and putting them in a raw store
+  raw_dataset_csv: data\raw\winequality.csv
+
+#We will then split the data into training and testing sets. The data after split will be stored under processed data
+split_data:
+  train_path: data\processed\train_winequality.csv
+  test_path: data\processed\test_winequality.csv
+  #The test size we can change as per our rqmt for various tests
+  test_size: 0.2
+
+#It specifies what algo we will be calling
+estimators:
+  #This being a regression problem we will use ElasticNet algo
+  ElasticNet:
+    #These are the parameters to be used within ElasticNet algo
+    params:
+      alpha: 0.88
+      l1_ratio: 0.90
+
+#The models will be saved in below folder
+model_dir: saved_models
+
