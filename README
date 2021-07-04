@@ -1,0 +1,9 @@
+1. Create a conda env dedicated to this project. Command: conda create -n wineq python=3.7 -y
+2. Activate the new env. Command: activate wineq
+3. Create requirements.txt with all the required packages
+2. run command pip install -r requirements.txt
+3. Create the template that is the folder structure for the project
+. push the data into history github: git init
+4. dvc init: initialize the dvc that is creating .dvc folder
+5. To track the data we will exe the command: dvc add data_given\winequality.csv
+git add. :This command will add all the details in the current direc to the staging area
