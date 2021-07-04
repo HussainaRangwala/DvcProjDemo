@@ -6,4 +6,6 @@
 . push the data into history github: git init
 4. dvc init: initialize the dvc that is creating .dvc folder
 5. To track the data we will exe the command: dvc add data_given\winequality.csv
+-> this will keep a version of the data in the form of winequality.csv.dvc
 git add. :This command will add all the details in the current direc to the staging area
+git commit -m "Firt Commit": it is used to commit the data in staging area
