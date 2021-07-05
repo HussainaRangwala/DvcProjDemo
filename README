@@ -1,4 +1,4 @@
-git remote add origin https://github.com/HussainaRangwala/DvcProjDemo.git1. Create a conda env dedicated to this project. Command: conda create -n wineq python=3.7 -y
+1. Create a conda env dedicated to this project. Command: conda create -n wineq python=3.7 -y
 2. Activate the new env. Command: activate wineq
 3. Create requirements.txt with all the required packages
 4. run command pip install -r requirements.txt
@@ -17,5 +17,6 @@ git remote add origin https://github.com/HussainaRangwala/DvcProjDemo.git1. Crea
 15. git push -u origin main: Push the data into the repo created
 16. Everytime we make some changes 11th and 15th command
 17. We will now code within the params.yaml file
-
+18. In the src folder we will create a get_data.py file to fetch data
+19.
 

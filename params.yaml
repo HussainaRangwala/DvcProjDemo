@@ -24,7 +24,7 @@ split_data:
 
 #It specifies what algo we will be calling
 estimators:
-  #This being a regression problem we will use ElasticNet algo
+  #This being a regression problem we will use ElasticNet Regression algo
   ElasticNet:
     #These are the parameters to be used within ElasticNet algo
     params:
