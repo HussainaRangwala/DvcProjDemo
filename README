@@ -19,5 +19,7 @@
 17. We will now code within the params.yaml file
 18. In the src folder we will create a get_data.py file to fetch data
 19. Loading the data into raw folder
-20.
+20. Add the stage 1 of data_load in the dvc.yaml and run command: dvc repro
+    -> dvc.lock file will be generated which will track the dvc.yaml stages as well that is the files within each stage
+
 

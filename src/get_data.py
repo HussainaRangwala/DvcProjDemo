@@ -30,7 +30,7 @@ def get_data(config_path):
     # return the data frame object
     return df
 
-# This will be the entry point for the project
+# This will be the entry point for the project and we pass arguments through command line
 
 
 if __name__ == '__main__':

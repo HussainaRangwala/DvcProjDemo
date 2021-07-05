@@ -1,2 +1,16 @@
 #Here we will be providing the stages details
 stages:
+  load_data:
+    #We will specify the command and the arg to be passed
+    cmd: python src\load_data.py --config=params.yaml
+    #We define the dependencies
+    deps:
+      - src\get_data.py
+      - src\load_data.py
+      - data_given\winequality.csv
+    #the output of the stage
+    outs:
+      - data\raw\winequality.csv
+
+
+
