@@ -18,5 +18,6 @@
 16. Everytime we make some changes 11th and 15th command
 17. We will now code within the params.yaml file
 18. In the src folder we will create a get_data.py file to fetch data
-19.
+19. Loading the data into raw folder
+20.
 
