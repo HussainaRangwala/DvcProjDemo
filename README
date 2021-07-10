@@ -21,5 +21,7 @@
 19. Loading the data into raw folder
 20. Add the stage 1 of data_load in the dvc.yaml and run command: dvc repro
     -> dvc.lock file will be generated which will track the dvc.yaml stages as well that is the files within each stage
-
+21. Split data according to test and train data (split_data.py)
+22. Add the split_data stage in dvc.yaml and execute dvc repro cmd
+23. Update the data in the git
 
